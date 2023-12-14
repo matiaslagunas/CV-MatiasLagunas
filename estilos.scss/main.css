@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: rgb(87, 87, 87);
+}
+.body .hoja_cv {
+  width: 600px;
+  height: 800px;
+  background-color: rgb(96, 149, 228);
+  margin: 10% auto;
+  display: flex;
+}
+.body .hoja_cv .cv_izq {
+  width: 250px;
+  height: 100%;
+  background-color: #2d2d2d;
+}
+.body .hoja_cv .cv_izq .contenedor_img {
+  width: 90%;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .hoja_cv .cv_izq .contenedor_img img {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.body .hoja_cv .cv_izq .datos_contacto h3 {
+  padding: 3% 0 3% 8%;
+  color: #d6d6d6;
+}
+.body .hoja_cv .cv_izq .datos_contacto .enlace-gmail {
+  color: #d6d6d6;
+}
+.body .hoja_cv .cv_izq .datos_contacto .enlace-gmail:hover {
+  color: rgb(255, 83, 83);
+}
+.body .hoja_cv .cv_izq .datos_contacto p {
+  padding: 3% 0 3% 8%;
+  color: #d6d6d6;
+}
+.body .hoja_cv .cv_izq .datos_contacto p span {
+  padding: 0;
+}
+.body .hoja_cv .cv_izq .datos_contacto p a {
+  color: #d6d6d6;
+}
+.body .hoja_cv .cv_izq .datos_contacto p a:hover {
+  color: rgb(108, 238, 108);
+}
+.body .hoja_cv .cv_der {
+  width: 400px;
+  height: 800px;
+}
+.body .hoja_cv .cv_der .contenedor_nombre {
+  width: 100%;
+}
+.body .hoja_cv .cv_der .contenedor_nombre h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  padding-top: 5%;
+}
+.body .hoja_cv .cv_der .linea_cv_titulo {
+  width: 90%;
+  height: 3px;
+  margin: 3% 5%;
+  background-color: #2d2d2d;
+  font-size: 30px;
+}
+.body .hoja_cv .cv_der .subtitulo_cv {
+  width: 100%;
+}
+.body .hoja_cv .cv_der .subtitulo_cv .subtitulo_cv_dedicacion {
+  padding-left: 7%;
+  font-size: 30px;
+}
+.body .hoja_cv .cv_der .descripcion_cv {
+  width: 100%;
+}
+.body .hoja_cv .cv_der .descripcion_cv p {
+  padding: 5% 8%;
+}
+.body .hoja_cv .cv_der .linea_cv {
+  width: 90%;
+  height: 1px;
+  margin: 3% 5%;
+  background-color: #2d2d2d;
+}
+.body .hoja_cv .cv_der .subtitulo_cv_experiencia {
+  width: 100%;
+}
+.body .hoja_cv .cv_der .subtitulo_cv_experiencia .subtitulo_cv_experiencia {
+  padding-left: 7%;
+  font-size: 30px;
+}
+.body .hoja_cv .cv_der .descripcion_cv_experiencia {
+  width: 100%;
+  display: flex;
+}
+.body .hoja_cv .cv_der .descripcion_cv_experiencia .izq_descripcion h3 {
+  padding: 3% 0 0 8%;
+}
+.body .hoja_cv .cv_der .descripcion_cv_experiencia .izq_descripcion p {
+  padding: 3% 8%;
+}
+.body .hoja_cv .cv_der .descripcion_cv_experiencia .der_fecha {
+  padding-right: 2%;
+}
+.body .hoja_cv .cv_der .formacion {
+  width: 100%;
+  padding-left: 8%;
+}
+.body .hoja_cv .cv_der .formacion h3 {
+  padding: 3% 0 3% 0%;
+  font-size: 30px;
+}
+.body .hoja_cv .cv_der .formacion .cont-formacion {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.body .hoja_cv .cv_der .formacion .cont-formacion .izq-formacion {
+  width: 67%;
+}
+.body .hoja_cv .cv_der .formacion .cont-formacion .izq-formacion p a {
+  color: #bbbbbb;
+  transition: 0.3s;
+}
+.body .hoja_cv .cv_der .formacion .cont-formacion .izq-formacion p a:hover {
+  color: #444444;
+}
+.body .hoja_cv .cv_der .formacion .cont-formacion .der-formacion {
+  width: 25%;
+  padding-right: 3%;
+  padding-top: 8px;
+}/*# sourceMappingURL=main.css.map */
